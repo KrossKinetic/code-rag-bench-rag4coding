@@ -1,6 +1,6 @@
 # CodeRAG-Bench
 
-This is the code repository for the project ["CodeRAG-Bench: Can Retrieval Augment Code Generation?"](https://code-rag-bench.github.io/).
+This is the modified code repository for the project ["CodeRAG-Bench: Can Retrieval Augment Code Generation?"](https://code-rag-bench.github.io/) with updated reqirements.txt and a patch to the beir library inside "miniconda3/envs/crag/lib/python3.10/sitepackages/beir/retrieval/models/sentence_bert.py" line 30  to get codesage-base-v2 to work. Simply replace that file with the one uploaded in the repository which enables CodeRagBench to work with retriever models that need "trust_remote_code=True" argument.
 
 ## Installation
 
