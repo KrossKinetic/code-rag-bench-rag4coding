@@ -31,8 +31,8 @@ class SentenceBERT:
             self.doc_model = self.q_model
 
         elif isinstance(model_path, tuple):
-            self.q_model = SentenceTransformer(model_path[0], **kwargs, trust_remote_code=True)
-            self.doc_model = SentenceTransformer(model_path[1], **kwargs, trust_remote_code=True)
+            self.q_model = SentenceTransformer(model_path[0], **kwargs, trust_remote_code=True)  # THE CHANGE
+            self.doc_model = SentenceTransformer(model_path[1], **kwargs, trust_remote_code=True)  # THE CHANGE
 
         if self.max_length:
             self.q_model.max_seq_length = self.max_length
