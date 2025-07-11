@@ -16,3 +16,8 @@ unidiff
 GitPython
 evaluate
 requests
+accelerate
+editdistance
+litellm
+google-generativeai
+bitsandbytes
