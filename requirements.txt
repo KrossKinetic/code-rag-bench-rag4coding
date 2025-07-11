@@ -3,14 +3,14 @@ html2text
 beautifulsoup4
 voyageai
 pyext
-transformers==4.40.0
+transformers
 jsonlines
 rank_bm25
 tenacity
 openai
 tiktoken
 fastwarc
-vllm==0.4.2
+vllm
 chardet
 unidiff
 GitPython
